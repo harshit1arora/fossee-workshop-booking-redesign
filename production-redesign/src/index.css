@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --primary: #2563eb;
+    --primary-dark: #1e40af;
+    --background: #ffffff;
+    --foreground: #0f172a;
+    --card: #f8fafc;
+    --card-hover: #f1f5f9;
+  }
+
+  .dark {
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    --card: #1e293b;
+    --card-hover: #334155;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:scale-[1.02] active:scale-95;
+  }
+  
+  .card-premium {
+    @apply bg-slate-50 border border-slate-200 rounded-3xl p-6 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 dark:bg-slate-800/50 dark:border-slate-700;
+  }
+
+  .glassmorphism {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl dark:bg-slate-900/70;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-100 dark:bg-slate-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 dark:bg-slate-700 dark:hover:bg-slate-600;
+}
