@@ -1,17 +1,17 @@
-# 🚀 FOSSEE Workshop Booking - Modern Redesign
+# FOSSEE Workshop Booking - Modern Redesign
 
-A high-performance, visually stunning redesign of the FOSSEE (IIT Bombay) Workshop Booking portal. Built to provide a premium user experience while maintaining the core functionality of coordinating educational workshops.
+A high performance, visually stunning redesign of the FOSSEE (IIT Bombay) Workshop Booking portal. Built to provide a premium user experience while maintaining the core functionality of coordinating educational workshops.
 
 > [!IMPORTANT]
 > This project was developed as a screening task for the FOSSEE Internship, focusing on modernizing the UI/UX with state-of-the-art web technologies.
 
 ---
 
-## ✨ Project Overview
+## Project Overview
 
 The original portal was functional but lacked modern design patterns. This redesign transforms the experience into a responsive, interactive, and accessible platform using **React 19**, **Vite**, and **Tailwind CSS v4**.
 
-### 🛠️ Tech Stack
+### Tech Stack
 - **Frontend**: React 19 (Functional components, Hooks)
 - **Styling**: Tailwind CSS v4 (Modern, utility-first)
 - **Animations**: Framer Motion (Smooth layout transitions)
@@ -20,7 +20,7 @@ The original portal was functional but lacked modern design patterns. This redes
 
 ---
 
-## 🧠 Design & Engineering Decisions
+## Design & Engineering Decisions
 
 ### 1. What design principles guided your improvements?
 The redesign was guided by **Visual Hierarchy**, **Affordance**, and **Modernity**.
@@ -47,16 +47,16 @@ The most challenging aspect was **balancing visual richness with technical perfo
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🌓 **Full Dark Mode**: Automatic theme detection and manual toggle.
-- 🔍 **Real-time Discovery**: High-performance search and category filtering.
-- 📦 **Modern Booking Flow**: Multi-step modal with instant validation and success feedback.
-- 🎨 **FOSSEE Themed**: Specialized workshop categories like **Python**, **LaTeX**, **Scilab**, and **Linux Administration**.
+- **Full Dark Mode**: Automatic theme detection and manual toggle.
+- **Real-time Discovery**: High-performance search and category filtering.
+- **Modern Booking Flow**: Multi-step modal with instant validation and success feedback.
+- **FOSSEE Themed**: Specialized workshop categories like **Python**, **LaTeX**, **Scilab**, and **Linux Administration**.
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
